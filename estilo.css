@@ -89,7 +89,7 @@ section{
     background-color: rgb(73, 63, 82);
     margin-top: 10px;
     margin-left: 50px;
-    background-image: url(../bitacora2/img/position.png);
+    background-image: url(./img/position.png);
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
@@ -143,7 +143,7 @@ nav a:hover{
      background-color: rgb(73, 63, 82);
     margin-top: 10px;
     margin-left: 50px;
-    background-image: url(../bitacora2/img/display.png);
+    background-image: url(./img/display.png);
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
@@ -155,7 +155,7 @@ nav a:hover{
      background-color: rgb(73, 63, 82);
     margin-top: 10px;
     margin-left: 50px;
-    background-image: url(../bitacora2/img/animacion.png);
+    background-image: url(./img/animacion.png);
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
@@ -167,7 +167,7 @@ nav a:hover{
      background-color: rgb(73, 63, 82);
     margin-top: 10px;
     margin-left: 50px;
-    background-image: url(../bitacora2/img/css3.png);
+    background-image: url(./img/css3.png);
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
@@ -200,7 +200,7 @@ nav a:hover{
      background-color: rgb(73, 63, 82);
     margin-top: 10px;
     margin-left: 50px;
-    background-image: url(../bitacora2/img/html-id.png);
+    background-image: url(./img/html-id.png);
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
