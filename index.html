@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Monsieur+La+Doulaise&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="imglogo"><img src="img/Mario.jpg" alt="">
+    </header>
+    <nav>
+    </nav>
+    <section>
+        <div class="titulo1">
+            <h1 id="1">
+                <center>Position</center>
+            </h1>
+        </div>
+
+        </div>
+
+        <div class="contenido1">
+            <h2>
+                <center>Ideas principales</center>
+            </h2>
+            <div class="texto1">
+                <h3><br>
+                    <center>Position</center>
+                </h3>
+                <p>
+                    <center> <strong>position: static:</strong> <br>
+                        Es el valor predeterminado para todos los elementos.
+                        Los elementos se colocan de acuerdo con el flujo normal del documento, es decir, en el orden en
+                        que aparecen en el HTML.
+                        No se puede manipular con las propiedades top, left, bottom o right. <br>
+
+                        <strong>position: relative:</strong> <br>
+                        El elemento se posiciona en relación con su ubicación normal en el flujo del documento.
+                        Se pueden ajustar su posición usando las propiedades top, left, bottom o right.
+                        El espacio original que ocupa el elemento en el flujo del documento no se modifica, aunque su
+                        posición visual cambie. <br>
+
+                        <strong>position: absolute:</strong> <br>
+
+                        El elemento se retira del flujo normal del documento y se posiciona en relación con su
+                        contenedor más cercano que tenga una propiedad position distinta de static.
+                        Se puede mover libremente en la página usando top, left, bottom, y right.
+                        Otros elementos no ocupan su espacio en el flujo del documento. <br>
+
+                        <strong>position: fixed:</strong> <br>
+                        El elemento se posiciona en relación con la ventana del navegador (viewport).
+                        No se mueve cuando se hace scroll en la página.
+                        Es útil para crear menús o barras de navegación fijas en la parte superior o inferior de la
+                        pantalla. <br>
+
+                        <strong>position: sticky:</strong> <br>
+                        Combina características de relative y fixed.
+                        El elemento actúa de forma relativa hasta que el usuario hace scroll hasta un punto definido,
+                        momento en el que se "adhiere" al viewport como si fuera fixed.
+                        Requiere definir las propiedades de top, left, bottom o right para especificar cuándo el
+                        elemento debería fijarse.
+                </p>
+                <br>
+                <br></center>
+            </div>
+        </div>
+
+        <div class="contenido2">
+            <h2>
+                <center>Apuntes</center>
+            </h2>
+            <div class="texto2">
+                <h3> <br>
+                    <center>Position</center>
+                </h3>
+                <center>
+                    <p> <strong>Static:</strong> <br>
+                        Los elementos con position: static siguen el flujo normal del documento. En pocas palabras esta
+                        donde lo pusiste. <br>
+                    <p> <strong>Relative:</strong> <br>
+                        Nos permite mover la posicion de los objetos, pero como quien dice se respeta el lugar original
+                        de este objeto. <br>
+                    <p> <strong>Absolute:</strong> <br>
+                        Nos permite mover del objeto donde queramos pero al quitarlo los demas objetos actuan como si ya
+                        no estuviera.<br>
+                    <p> <strong>sticky:</strong> <br>
+                        Es una mezcla de relative y fixed, Basicamente el objeto al hacer un scroll no va desaparecer de
+                        la pantalla. <br>
+                </center>
+                </p>
+            </div>
+            <div class="imagen">
+            </div>
+        </div>
+
+
+        <div class="resum">
+            <h2>
+                <center>Resumen</center>
+            </h2>
+            <div class="resumtext">
+                <center>
+                    <p>Estas propiedades nos sirven para controlar cómo quieres que se muestre la información y el
+                        estilo que quieras darle a tu página web. Con ellas puedes ajustar la posición de los elementos
+                        para crear diseños más organizados y atractivos</p>
+                </center>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <section>
+        <div class="titulo1">
+            <h1>
+                <center>Display</center>
+            </h1>
+        </div>
+        <div class="contenido1">
+            <h2>
+                <center>Ideas principales</center>
+            </h2>
+            <div class="texto1">
+                <h3><br>
+                    <center>Display</center>
+                </h3>
+                <p>
+                    <center>
+                        <strong>Block:</strong> <br>
+                        Hace que el elemento ocupe todo el ancho disponible, empujando a otros elementos hacia abajo.
+                        <br>
+                        <strong>Inline:</strong> <br>
+                        Hace que el elemento ocupe el espacio que necesita, y permite que mas elementos esten en la
+                        misma linea. <br>
+                        <strong>Inline-Block:</strong> <br>
+                        Es una mezcla entre block y inline, se comporta como un inline pero te respeta el ancho y alto
+                        que le asignas. <br>
+                        <strong>None:</strong> <br>
+                        Hace que el elemento no se muestre, o se puede poner un hover para que se ponga el cursor encima
+                        desaparece. <br>
+                        <strong>Flex:</strong> <br>
+                        Permite organizar los elementos hijos, en filas o columnas. <br>
+                        <strong>Grid:</strong> <br>
+                        Convierte el contenedor en una cuadricula.
+
+                </p>
+                </center>
+                <br>
+                <br>
+            </div>
+        </div>
+
+        <div class="contenido2">
+            <h2>
+                <center>Apuntes</center>
+            </h2>
+            <div class="texto2">
+                <h3> <br>
+                    <center>Position</center>
+                </h3>
+                <center>
+                    <p> <strong>Block:</strong> <br>
+                        El elemento ocupa toda la linea como un bloque. <br>
+                        <strong>Inline:</strong> <br>
+                        Se coloca en la misma linea que los demas. <br>
+                        <strong>Inline-Block:</strong> <br>
+                        Combina las propiedades, se puede ajustar tamaño pero sigue en linea.<br>
+                        <strong>None:</strong> <br>
+                        El elemento desaparece. <br>
+                        <strong>Flex:</strong> <br>
+                        Organiza los elementos de manera flexible en filas o columnas. <br>
+                        <strong>Grid:</strong> <br>
+                        Pone en una cuadricula los elementos precisa con filas y columnas. <br>
+                </center>
+                </p>
+
+            </div>
+            <div class="imagen2">
+            </div>
+        </div>
+
+
+        <div class="resum">
+            <h2>
+                <center>Resumen</center>
+            </h2>
+            <div class="resumtext">
+                <center>
+                    <p>Display te ayuda a como quieres que se comporten y se muestre los elementos de tu página.</p>
+                </center>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section>
+        <div class="titulo1">
+            <h1>
+                <center>Animacion</center>
+            </h1>
+        </div>
+
+        </div>
+
+        <div class="contenido1">
+            <h2>
+                <center>Ideas principales</center>
+            </h2>
+            <div class="texto1">
+                <h3><br>
+                    <center>Animacion</center>
+                </h3>
+                <p>
+                    <center> <strong>Animation:</strong> <br>
+                        En este se hace un cuadro que al abrir la pagina se va haciendo grande, dependiendo de como
+                        ordenes el color y las dimensiones. <br>
+
+                        <strong>Animation funtion:</strong> <br>
+                        <strong>Linear:</strong> <br>
+                        Mueve el objeto de forma linean apartir de las propiedades del objeto. <br>
+
+                        <strong>Ease:</strong> <br>
+                        Crea una velocidad constante y mas suave. <br>
+
+                        <strong>Ease in:</strong> <br>
+                        El elemento se posiciona en relación con la ventana del navegador (viewport).
+                        No se mueve cuando se hace scroll en la página.
+                        Es útil para crear menús o barras de navegación fijas en la parte superior o inferior de la
+                        pantalla. <br>
+
+                        <strong>Ease out:</strong> <br>
+                        Comienza con una aceleracion suave luego rapida y termnina en lenta. <br>
+                        <strong> Cubic bezier:</strong> <br>
+                        Permite definir la aceleración y desaceleración de una animación a través de una curva cúbica de
+                        Bézier. <br>
+                        <strong> Animation direction:</strong> <br>
+
+                        <strong>Normal</strong> <br> La animación se reproduce desde el inicio hasta el final (de 0% a
+                        100%). <br>
+                        <strong>Reverse:</strong> <br> La animación se reproduce desde el final hasta el inicio (de 100%
+                        a 0%). <br>
+                        <strong>Alternate:</strong> <br> La animación se reproduce desde el inicio al final y luego de
+                        nuevo al inicio,
+                        alternando la dirección en cada ciclo. <br>
+                        <strong>Alternate-reverse:</strong> <br> La animación se reproduce desde el final al inicio y
+                        luego de nuevo al final,
+                        alternando la dirección en cada ciclo. <br>
+                </p>
+                <br>
+                <br>
+            </div>
+        </div>
+
+        <div class="contenido2">
+            <h2>
+                <center>Apuntes</center>
+            </h2>
+            <div class="texto2">
+                <h3><br>
+                    <center>Animacion</center>
+                </h3>
+                <p>
+                    <center>
+                        <strong>None:</strong> <br> Este es el valor por defecto. No se aplican estilos antes o después
+                        de la animación; el
+                        elemento regresa a su estado original cuando la animación termina. <br>
+
+                        <strong>Forwards:</strong> <br> El elemento mantendrá el estilo del último fotograma de la
+                        animación cuando termine la
+                        ejecución. Es decir, después de que la animación ha finalizado, el elemento conservará el estilo
+                        definido en el 100% de la animación. <br>
+
+                        <strong>Backwards:</strong> <br> El elemento tomará el estilo del primer fotograma de la
+                        animación antes de que
+                        comience la animación. Si la animación se retrasa (debido a la propiedad animation-delay), el
+                        estilo del primer fotograma se aplicará inmediatamente. <br>
+
+                        <strong>Both:</strong> <br> Combina los efectos de forwards y backwards. Mantiene el estilo del
+                        último fotograma
+                        después de que la animación ha terminado y también aplica el estilo del primer fotograma antes
+                        de que comience la animación. <br>
+                    </center>
+
+
+
+                </p>
+            </div>
+            <div class="imagen3">
+            </div>
+        </div>
+
+
+        <div class="resum">
+            <h2>
+                <center>Resumen</center>
+            </h2>
+            <div class="resumtext">
+                <p>Las animaciones son muy utiles para darle animaciones fluidas, diferentes y muy llamativas para el
+                    usuario.</p>
+            </div>
+        </div>
+
+    </section>
+
+
+
+   
+
+    <section>
+        <div class="titulo1">
+            <h1>
+                <center>Referencias avanzadas.</center>
+            </h1>
+        </div>
+
+        </div>
+
+        <div class="contenido11">
+            <h2>
+                <center>Ideas principales</center>
+            </h2>
+            <div class="texto11">
+                <h3><br>
+                    <center>Referencias avanzadas.</center>
+                </h3>
+                <p>
+                    <center></center>
+                </p>
+                Atributo id
+                El atributo <strong>id</strong> es como un nombre que identifica al elemento. El valor de este atributo
+                no puede ser
+                duplicado. Este nombre debe ser único en todo el documento. <br>
+                <strong>Elementos</strong> un selector de elementos en CSS es una regla que selecciona todos los
+                elementos de un tipo especÍfico en el documento HTML.<br>
+                <strong>Pseudoclases - :nth-xhild()</strong>se utiliza para seleccionar uno o más elementos en función
+                de su posición dentro de su elemento padre. Es especialmente útil para aplicar estilos a elementos
+                específicos en una lista o una tabla sin necesidad de agregar clases adicionales.<br>
+                Atributo <strong>class</strong> este atributo es mas flexible y puede ser asignado a varios elementos
+                HTML en el documento que comparten diseño similar. <br>
+            </div>
+        </div>
+
+        <div class="contenido2">
+            <h2>
+                <center>Apuntes</center>
+            </h2>
+            <div class="texto2">
+                <h3><br>
+                    <center>Referencias avanzadas.</center>
+                </h3>
+                <p>
+                    <center>
+                        Estos conceptos son fundamentales para comprender la estructura y el diseño de documentos HTML,
+                        así como para aplicar estilos de manera eficiente en CSS.
+                    </center>
+                </p>
+            </div>
+            <div class="imagen5">
+            </div>
+        </div>
+        <div class="resum">
+            <h2>
+                <center>Resumen</center>
+            </h2>
+            <div class="resumtext">
+                <p>En resumen, el id: Atributo que proporciona una identificación única para un elemento.
+                    class: Atributo que permite agrupar varios elementos para aplicar estilos comunes.
+                    :nth-child(): Pseudoclase que selecciona elementos según su posición, facilitando la aplicación de
+                    estilos específicos sin clases adicionales.</p>
+            </div>
+        </div>
+
+    </section>
+    <footer>
+        <a href="#1">Inicio </a>
+    </footer>
